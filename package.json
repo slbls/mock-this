@@ -24,11 +24,9 @@
 	"build": {
 		"appId": "me.berenson.mock-this",
 		"productName": "mock-this",
-		"extraFiles": [
-			"icon.png"
-		],
+		"extraFiles": ["icon.png"],
 		"win": {
-			"target": "portable"
+			"target": "nsis"
 		},
 		"mac": {
 			"target": "dmg",
