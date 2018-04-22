@@ -27,14 +27,15 @@
 		"productName": "mock-this",
 		"extraFiles": ["icon.png"],
 		"win": {
-			"target": "zip"
+			"target": "portable"
 		},
 		"mac": {
-			"target": "zip",
-			"category": "Utilities"
+			"target": "dmg",
+			"category": "Utilities",
+			"identity": "null"
 		},
 		"linux": {
-			"target": "zip",
+			"target": "AppImage",
 			"category": "Utilities"
 		}
 	}
