@@ -19,13 +19,14 @@
 	"homepage": "https://github.com/SpoonBytes/mock-this#readme",
 	"devDependencies": {
 		"electron": "^1.8.4",
-		"electron-builder": "^20.10.0",
-		"nodemon": "^1.17.3"
+		"electron-builder": "^20.10.0"
 	},
 	"build": {
 		"appId": "me.berenson.mock-this",
 		"productName": "mock-this",
-		"extraFiles": ["icon.png"],
+		"extraFiles": [
+			"icon.png"
+		],
 		"win": {
 			"target": "portable"
 		},
