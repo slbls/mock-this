@@ -25,6 +25,17 @@
 	"build": {
 		"appId": "me.berenson.mock-this",
 		"productName": "mock-this",
-		"extraFiles": ["icon.png"]
+		"extraFiles": ["icon.png"],
+		"win": {
+			"target": "zip"
+		},
+		"mac": {
+			"target": "zip",
+			"category": "Utilities"
+		},
+		"linux": {
+			"target": "zip",
+			"category": "Utilities"
+		}
 	}
 }
