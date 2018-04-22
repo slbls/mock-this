@@ -1,0 +1,30 @@
+{
+	"name": "mock-this",
+	"version": "1.0.0",
+	"description": "spOnGEbOB mOcKiNG",
+	"main": "app.js",
+	"scripts": {
+		"test": "electron .",
+		"start": "electron-builder -mwl"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SpoonBytes/mock-this.git"
+	},
+	"author": "Spencer Berenson",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/SpoonBytes/mock-this/issues"
+	},
+	"homepage": "https://github.com/SpoonBytes/mock-this#readme",
+	"devDependencies": {
+		"electron": "^1.8.4",
+		"electron-builder": "^20.10.0",
+		"nodemon": "^1.17.3"
+	},
+	"build": {
+		"appId": "me.berenson.mock-this",
+		"productName": "mock-this",
+		"extraFiles": ["icon.png"]
+	}
+}
